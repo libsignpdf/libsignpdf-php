@@ -14,6 +14,5 @@
             "email": "libsignpdf@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {}
 }
