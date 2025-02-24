@@ -1,0 +1,19 @@
+{
+    "name": "libsignpdf/libsignpdf",
+    "description": "This is a library for pdf signing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kampak\\LibSignPDF\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "libsignpdf",
+            "email": "libsignpdf@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
