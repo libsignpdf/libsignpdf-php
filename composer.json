@@ -1,5 +1,5 @@
 {
-    "name": "libsignpdf/libsignpdf",
+    "name": "kampak/libsignpdf",
     "description": "This is a library for pdf signing",
     "type": "library",
     "license": "MIT",
