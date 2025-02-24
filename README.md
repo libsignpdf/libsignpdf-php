@@ -75,7 +75,7 @@ $signer->signPDF(
     "https://example.com", // url for QRCode
     1, // page will be place the signature
     1, // isPades signature
-    0, // type od signature (0 for invisible, 1 for visible image, 2 for visible QRCode)
+    0, // type od signature (0 for invisible, 1 for visible image)
     100.0, // x position on pdf for place visualization of signature (start on bottom left)
     200.0, // y position on pdf for place visualization of signature (start on bottom left)
     300.0, // width of visualization for place signature (start on bottom left)
