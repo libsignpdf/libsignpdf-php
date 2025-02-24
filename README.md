@@ -20,16 +20,9 @@ To build LibSignPDF lib you'll need:
 
 ## Development quickstart
 
-PoDoFo is known to compile through a multitude of package managers (including `apt-get`, [brew](https://brew.sh/), [vcpkg](https://vcpkg.io/), [Conan](https://conan.io/)), and has public continuous integration working in [Ubuntu Linux](https://github.com/podofo/podofo/blob/master/.github/workflows/build-linux.yml), [MacOS](https://github.com/podofo/podofo/blob/master/.github/workflows/build-linux.yml) and
-[Windows](https://github.com/podofo/podofo/blob/master/.github/workflows/build-win.yml), bootstrapping the CMake project, building and testing the library. It's highly recommended to build PoDoFo using such package managers. 
+LibSignPDF can be used on various operating systems because it is compiled into binary code that can be executed directly by the machine. LibSignPDF is created using the rust programming language which is then compiled into a shared library.
 
-There's also a playground area in the repository where you can have
-access to pre-build dependencies for some popular architectures/operating systems:
-the playground is the recommended setting to develop the library and reproduce bugs,
-while it's not recommended for the deployment of your application using PoDoFo.
-Have a look to the [Readme](https://github.com/podofo/podofo/tree/master/playground) there.
-
-> **Warning**: PoDoFo is known to be working in cross-compilation toolchains (eg. Android/iOS development), but support may not provided in such scenarios. If you decide to manually build dependencies you are assumed to know how to identity possible library clashes/mismatches and how to deal with compilation/linking problems that can arise in your system.
+> **Warning**: LibSignPDF is known to be working in cross-compilation toolchains (eg. MacOS/Linux/Windows) but in usage still need qpdf package because the qpdf is not static linking when it compiled.
 
 ### Install package
 
